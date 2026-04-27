@@ -1,8 +1,15 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using WebApplicationC__Tut101.Models;
 
-public class Class1
+namespace WebApplicationC__Tut101.Data
 {
-	public Class1()
-	{
-	}
+    public class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<User> Users { get; set; }
+    }
 }

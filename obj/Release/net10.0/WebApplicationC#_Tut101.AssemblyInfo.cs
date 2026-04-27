@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApplicationC#_Tut101")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6c564f48e9c6eb34d2238780dd27e770babe425")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApplicationC#_Tut101")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApplicationC#_Tut101")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
