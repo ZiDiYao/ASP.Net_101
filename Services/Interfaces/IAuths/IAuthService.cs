@@ -1,5 +1,6 @@
 using WebApplicationC__Tut101.DTOs.Requests;
 using WebApplicationC__Tut101.DTOs.Responses;
+using WebApplicationC__Tut101.Common;
 
 namespace WebApplicationC__Tut101.Services.Interfaces.IAuths
 {
