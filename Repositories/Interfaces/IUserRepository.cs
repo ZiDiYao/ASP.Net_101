@@ -4,22 +4,14 @@ namespace WebApplicationC__Tut101.Repositories.Interfaces
 {
     public interface IUserRepository
     {
-        // Get
-        IEnumerable<User> GetAll();
+        Task<User?> GetByUserNameAsync(string userName);
 
-        User? GetById(int id);
+        Task<User?> GetByEmailAsync(string email);
 
-        User? GetByEmail(string email);
+        Task AddAsync(User user);
 
-        // Add
-        User Add(User user);
+        Task<bool> ExistsByUserNameAsync(string userName);
 
-        // Edit
-        bool Update(User user);
-
-        // Delete
-        bool Delete(User user);
-
-        bool DeleteById(int id);
+        Task<bool> ExistsByEmailAsync(string email);
     }
 }
